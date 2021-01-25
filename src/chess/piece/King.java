@@ -2,9 +2,9 @@ package chess.piece;
 
 import boardgame.Board;
 import chess.Color;
-import chess.chessPiece;
+import chess.ChessPiece;
 
-public class King extends chessPiece {
+public class King extends ChessPiece {
 
 	public King(Board board, Color color) {
 		super(board, color);
@@ -12,7 +12,7 @@ public class King extends chessPiece {
 
 	@Override
 	public String toString() {
-		return " K ";
+		return "K";
 
 	}
 }
